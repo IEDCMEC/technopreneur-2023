@@ -4631,7 +4631,7 @@ img {
   color: #ffffff;
   min-width: 175px;
   padding: 15px 19px;
-  background: url(../images/icons/icon-1.png) no-repeat;
+  /* background: url(../images/icons/icon-1.png) no-repeat; */
   background-position: left top;
 }
 
@@ -4640,11 +4640,11 @@ img {
 }
 
 .fact-counter.style-two .column:nth-child(2) .inner .count-outer {
-  background: url(../images/icons/icon-2.png) no-repeat;
+  /* background: url(../images/icons/icon-2.png) no-repeat; */
 }
 
 .fact-counter.style-two .column:nth-child(3) .inner .count-outer {
-  background: url(../images/icons/icon-3.png) no-repeat;
+  /* background: url(../images/icons/icon-3.png) no-repeat; */
 }
 
 /*** 
@@ -6179,7 +6179,7 @@ img {
 
 .mission-section .video-column .video-image-box .image .video-boxed {
   position: absolute;
-  right: -65px;
+  right: -75px;
   top: 50%;
   overflow: hidden;
   width: 130px;
