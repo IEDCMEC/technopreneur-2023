@@ -900,7 +900,8 @@ img {
 }
 
 .header-style-one .main-menu {
-  padding-top: 38px;
+  /* padding-top: 38px; */
+  margin-top: -10px;
 }
 
 .main-menu .navbar-collapse {
