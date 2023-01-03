@@ -280,6 +280,7 @@ img {
   border-radius: 3px;
   background-color: #ff006a;
   padding: 11px 23px;
+  margin-left: 10px;
   text-transform: uppercase;
   border: 2px solid #ff006a;
 }
@@ -832,6 +833,8 @@ img {
 
 .main-header .header-upper .logo-box .logo {
   position: relative;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .main-header .header-upper .outer-box {
@@ -900,8 +903,8 @@ img {
 }
 
 .header-style-one .main-menu {
-  /* padding-top: 38px; */
-  margin-top: -10px;
+  padding-top: 38px;
+  /* margin-top: -10px; */
 }
 
 .main-menu .navbar-collapse {
@@ -1394,7 +1397,7 @@ img {
 }
 
 .sticky-header .main-menu {
-  margin-top: 0px;
+  margin-top: 10px;
   padding-top: 0px;
 }
 
@@ -1427,6 +1430,7 @@ img {
 
 .sticky-header .logo {
   padding: 4px 0px 4px;
+  margin: 10px 0px 10px;
 }
 
 .sticky-header .header-upper .logo-box {
