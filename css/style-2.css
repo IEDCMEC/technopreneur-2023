@@ -1,4 +1,3 @@
-
 /* Global Style */
 
 .pt-6 {
@@ -1091,12 +1090,20 @@
 
 @media only screen and (max-width: 599px){
 	
+
 	.about-section .image-one .video-box-two {
 	    right: 50%;
 	    top: -40px;
 	    margin-right: -40px;
 	}
+
+    .popup-content.ts-speaker-popup{
+        padding: 20px 15px;
+    }
 	
+    .popup-content .content-column .inner-column{
+        padding: 0 10px;
+    }
 }
 
 	

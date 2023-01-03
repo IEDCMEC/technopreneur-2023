@@ -1,3 +1,8 @@
+
+/* html{
+    scroll-behavior: smooth;
+} */
+
 /* ---------------------------------------
 
 [Master Stylesheet]
@@ -3724,6 +3729,7 @@ img {
 .sponsors-section .sponsors-list a {
   position: relative;
   opacity: 0.5;
+  padding: 5px 20px;
   margin-bottom: 20px;
   display: inline-block;
   transition: all 500ms ease;
@@ -4644,13 +4650,13 @@ img {
   color: #ffffff;
 }
 
-.fact-counter.style-two .column:nth-child(2) .inner .count-outer {
-  /* background: url(../images/icons/icon-2.png) no-repeat; */
-}
+/* .fact-counter.style-two .column:nth-child(2) .inner .count-outer {
+  background: url(../images/icons/icon-2.png) no-repeat; 
+} */
 
-.fact-counter.style-two .column:nth-child(3) .inner .count-outer {
-  /* background: url(../images/icons/icon-3.png) no-repeat; */
-}
+/* .fact-counter.style-two .column:nth-child(3) .inner .count-outer {
+  background: url(../images/icons/icon-3.png) no-repeat;
+} */
 
 /*** 
 
@@ -7791,6 +7797,8 @@ img {
 
 .popup-content .image-column .inner-column {
   position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .popup-content .image-column .inner-column .image {
@@ -8535,7 +8543,7 @@ img {
 .news-block-two .inner-box .owl-nav {
   position: absolute;
   left: 0px;
-  top: 50%;
+  top: 110%;
   width: 100%;
   margin-top: -38px;
 }
