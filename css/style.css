@@ -1,8 +1,4 @@
 
-/* html{
-    scroll-behavior: smooth;
-} */
-
 /* ---------------------------------------
 
 [Master Stylesheet]
@@ -126,8 +122,11 @@ font-family: 'Passion One', cursive; */
 ====================================================================
 	4. Global Settings
 ====================================================================
+***/
 
- ***/
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   font-family: "Arimo", sans-serif;
