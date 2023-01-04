@@ -2182,9 +2182,12 @@ img {
 /*Video Box*/
 
 .video-box {
+  display: flexbox;
   position: relative;
   border-radius: 10px;
   overflow: hidden;
+  justify-content: center;
+  align-items: center;
 }
 
 .video-box .video-image {
@@ -2211,7 +2214,9 @@ img {
   bottom: 0px;
   z-index: 10;
   text-align: center;
-  padding-top: 90px;
+  padding-top: 17.5%;
+  padding-right: 60px;
+  
 }
 
 .video-box .video-image .content .overlay-box {
@@ -2232,7 +2237,7 @@ img {
   position: relative;
   color: #ffffff;
   font-size: 36px;
-  margin-top: 90px;
+  margin-top: 17.5%;
 }
 
 .video-box:before {
@@ -5199,6 +5204,7 @@ img {
 
 .programs-section .inner-container {
   position: relative;
+  
 }
 
 .programs-section .inner-container:before {
@@ -5261,7 +5267,7 @@ img {
 .programs-block .inner-block .content {
   position: relative;
   float: right;
-  padding: 0px;
+  padding: 10px;
 }
 
 .programs-block .inner-block .content .program-info {
@@ -5271,7 +5277,7 @@ img {
   font-size: 18px;
   font-weight: 700;
   text-align: right;
-  padding-right: 70px;
+  padding-right: 69px;
   text-transform: uppercase;
 }
 
@@ -5367,25 +5373,64 @@ img {
 
 .programs-block.style-two .inner-block .content {
   float: left;
+  position: relative;
+  padding: 0px;
 }
 
 .programs-block.style-two .inner-block .content .program-info {
   z-index: 10;
   left: auto;
-  right: -280px;
+  right: -285px;
   text-align: left;
   padding-right: 0px;
-  padding-left: 70px;
+  padding-left: 68px;
 }
 
 .programs-block.style-two .inner-block .content .program-info .dott {
+  position: absolute;
+  content: "";
+  /*right: -26px;*/
+  top: 0px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50px;
+  display: inline-block;
+  background-color: #ffffff;
+  border: 1px solid #e1e1e1;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
   right: auto;
-  left: -25px;
+  left: -12px;
+  
 }
 
 .programs-block.style-two .inner-block .content .program-info .dott:before {
+  position: absolute;
+  content: "";
+  left: 5px;
+  top: 5px;
+  right: 5px;
+  bottom: 5px;
+  border-radius: 50px;
   background-color: #a321b9;
 }
+@media only screen and (max-width: 600px){
+
+  .programs-block.style-two .inner-block .content .program-info .dott {
+    margin-top: 24px;
+    top: 33px;
+    right: 5px;   
+    
+  }
+  
+}
+@media only screen and (max-width: 600px){
+
+  .programs-block.style-two .inner-block .content .program-info{
+    padding-bottom: 46px;
+  }
+  
+}
+
 
 /*** 
 
