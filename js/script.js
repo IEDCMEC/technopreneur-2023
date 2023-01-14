@@ -509,8 +509,7 @@
 		   // animate
 		   $('html, body').animate({
 			   scrollTop: $(target).offset().top
-			 }, 1500);
-	
+			 }, 500);
 		});
 	}
 	
