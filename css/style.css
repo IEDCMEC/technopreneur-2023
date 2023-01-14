@@ -4652,6 +4652,7 @@ img {
 
 .fact-counter.style-two .column .inner .counter-title {
   color: #ffffff;
+  text-align: center;
 }
 
 /* .fact-counter.style-two .column:nth-child(2) .inner .count-outer {
