@@ -84,6 +84,7 @@ function GmapInit() {
 		  icon     : image,
 		  title    : title
 		});
+		infowindow.open(map,marker);
 		if( dataContent !== undefined && dataContent !== false ) {
 			google.maps.event.addListener(marker, 'click', function() {
 				infowindow.open(map,marker);
