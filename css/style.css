@@ -726,6 +726,11 @@ img {
   color: #ffffff;
 }
 
+@media only screen and (max-width: 992px) {
+  .sec-title {
+    text-align: center;
+  }
+}
 /*** 
 
 ====================================================================
@@ -766,6 +771,7 @@ img {
 
 .main-header .main-box .logo-box {
   position: relative;
+  display: inline;
   float: left;
   left: 0px;
   z-index: 10;
@@ -786,7 +792,7 @@ img {
   position: absolute;
   top: 50%;
   margin-top: 0px;
-  display: block;
+  display: inline;
 }
 
 .main-header .nav-toggler button {
@@ -807,10 +813,12 @@ img {
 .main-header .header-upper .outer-container {
   position: relative;
   padding: 0px 70px;
+  background-color: #041c2b;
 }
 
 .main-header .nav-outer {
   position: relative;
+  display: inline;
   float: left;
   width: 100%;
   margin-top: -100px;
@@ -825,6 +833,7 @@ img {
 .main-header .header-upper .logo-box {
   position: relative;
   z-index: 20;
+  display: inline;
   /* padding: 40px 0px 0px; */
   transition: all 500ms ease;
   -moz-transition: all 500ms ease;
@@ -1939,6 +1948,15 @@ img {
 
 .banner-section .info-column .list li:nth-child(3) {
   margin-left: 50px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .banner-section .content-column .inner-column {
+    position: relative;
+    text-align: left;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
 }
 
 /*** 
@@ -3191,6 +3209,15 @@ img {
   margin-top: 8px;
   text-transform: uppercase;
 }
+
+.mobile-price .price .price-strikethrough {
+  flex:0.7;
+  position: relative;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: line-through;
+}
+
 .mobile-price .buy-btn {
   flex:0.3;
   position: relative;
@@ -3253,7 +3280,7 @@ img {
   font-size: 52px;
   line-height: 45px;
   font-weight: 700;
-  margin-top: 25px;
+  margin-top: 15px;
 }
 
 .price-block .inner-box .price span {
@@ -3264,6 +3291,15 @@ img {
   line-height: 25px;
   text-transform: uppercase;
   margin: 40px 0;
+}
+
+.price-block .inner-box .price .price-strikethrough {
+  position: relative;
+  color: #ce5200;
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 15px;
+  text-decoration: line-through;
 }
 
 .price-block .inner-box .price-list {
@@ -3326,6 +3362,11 @@ img {
   margin-top: 15px;
 }
 
+.price-block:nth-child(1) .inner-box .price span {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
 .price-block:nth-child(2) .inner-box {
   border-top-color: #4caf50;
 }
@@ -3335,6 +3376,10 @@ img {
 }
 
 .price-block:nth-child(2) .inner-box .price {
+  color: #4caf50;
+}
+
+.price-block:nth-child(2) .inner-box .price .price-strikethrough {
   color: #4caf50;
 }
 
@@ -3350,6 +3395,10 @@ img {
   color: #00a1ea;
 }
 
+.price-block:nth-child(3) .inner-box .price .price-strikethrough {
+  color: #00a1ea;
+}
+
 .price-block:nth-child(4) .inner-box {
   border-top-color: #edb718;
 }
@@ -3362,6 +3411,9 @@ img {
   color: #edb718;
 }
 
+.price-block:nth-child(4) .inner-box .price .price-strikethrough {
+  color: #edb718;
+}
 
 .price-block.style-two .inner-box {
   border-top: none;
