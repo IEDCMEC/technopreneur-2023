@@ -58,7 +58,6 @@ Primary Use:    Mi-Expo HTML Template
 -------------------------------------------*/
 
 @import url("https://fonts.googleapis.com/css?family=Arimo:400,400i,700,700i|Passion+One:400,700,900|Sacramento");
-
 /* font-family: 'Sacramento', cursive;
 font-family: 'Arimo', sans-serif;
 font-family: 'Passion One', cursive; */
@@ -9445,6 +9444,10 @@ img {
 
 .map-section {
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
 }
 
 .map-section .map-canvas {
@@ -9471,7 +9474,73 @@ img {
   margin-bottom: 5px;
   color: #121212;
 }
+.location-address,.img-responsive{
+  height: 450px;
+  width: 650px;
+}
+.location-address{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 50px;
+}
+.Zamra{
+  font-size: 32px;
+}
+.North{
+  font-size: 16px;
+}
+@media only screen and (max-width: 1020px){
+  .map-section {
+    flex-direction: column-reverse;
+  }
+  .location-address{
+    height: 200px;
+  }
+}
+@media only screen and (max-width: 900px){
+  .img-responsive{
+    height: 400px;
+    width: calc(1.422*400px);
+  }
+  .location-address{
+    width: calc(1.422*400px);
+  }
+  .Zamra{
+    font-size: 30px;
+  }
+  
+}
+@media only screen and (max-width: 650px){
+  .img-responsive{
+    height: 350px;
+    width: calc(1.422*350px);
+  }
+  .location-address{
+    width: calc(1.422*350px);
+    height: 175px;
+    padding:30px;
+  }
+  .Zamra{
+    font-size: 25px;
+  }
+  
+}
+@media only screen and (max-width: 500px){
+  .img-responsive{
+    height: 250px;
+    width: calc(1.422*250px);
+  }
+  .location-address{
+    width: calc(1.422*250px);
 
+  }
+  .Zamra{
+    font-size: 20px;
+  }
+}
 /*** 
 
 ====================================================================
