@@ -57,6 +57,7 @@ Primary Use:    Mi-Expo HTML Template
 -------------------------------------------*/
 
 @import url("https://fonts.googleapis.com/css?family=Arimo:400,400i,700,700i|Passion+One:400,700,900|Sacramento");
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
 /* font-family: 'Sacramento', cursive;
 font-family: 'Arimo', sans-serif;
 font-family: 'Passion One', cursive; */
@@ -127,7 +128,7 @@ html {
 }
 
 body {
-  font-family: "Arimo", sans-serif;
+  font-family: "Sora", sans-serif;
   font-size: 14px;
   color: #777777;
   line-height: 1.7em;
@@ -2593,8 +2594,10 @@ img {
 .speaker-block .inner-box .lower-content .designation {
   position: relative;
   color: #00a1ea;
-  font-size: 14px;
   margin-top: 7px;
+}
+.speaker-block .inner-box .lower-content .designation h6{
+  font-size: 16px;
 }
 
 .speaker-section .button-box {
@@ -3164,7 +3167,48 @@ img {
 }
 
 .price-section .price-block {
-  padding: 0px 30px;
+  /* padding: 0px 30px; */
+}
+.mobile-price{
+  border-radius: 8px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+.mobile-price .price {
+  flex:0.7;
+  position: relative;
+  font-size: 22px;
+  font-weight: 700;
+  padding: 14px 30px;
+  margin: auto 0;
+}
+
+.mobile-price .price span {
+  position: relative;
+  display: block;
+  color: #222222;
+  font-size: 13px;
+  margin-top: 8px;
+  text-transform: uppercase;
+}
+.mobile-price .buy-btn {
+  flex:0.3;
+  position: relative;
+  font-size: 14px;
+  font-weight: 700;
+  color: #ffffff;
+  padding: 35px 0 35px 35px;
+  text-transform: uppercase;
+}
+.mobile-price .buy-btn:before {
+  position: absolute;
+  content: "";
+  left: -12px;
+  top: 43px;
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+  background-color: #ffffff;
 }
 
 .price-block {
@@ -3178,7 +3222,7 @@ img {
   border-radius: 8px;
   padding: 60px 15px 55px;
   background-color: #ffffff;
-  border-top: 12px solid #04364f;
+  border-top: 12px solid #ce5200;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
 }
 
@@ -3205,8 +3249,8 @@ img {
 
 .price-block .inner-box .price {
   position: relative;
-  color: #04364f;
-  font-size: 60px;
+  color: #ce5200;
+  font-size: 52px;
   line-height: 45px;
   font-weight: 700;
   margin-top: 25px;
@@ -3216,9 +3260,10 @@ img {
   position: relative;
   display: block;
   color: #222222;
-  font-size: 18px;
-  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
   text-transform: uppercase;
+  margin: 40px 0;
 }
 
 .price-block .inner-box .price-list {
@@ -3259,7 +3304,7 @@ img {
   color: #ffffff;
   padding: 14px 35px 14px 40px;
   text-transform: uppercase;
-  background-color: #04364f;
+  background-color: #ce5200;
 }
 
 .price-block .inner-box .buy-btn:before {
@@ -3282,15 +3327,15 @@ img {
 }
 
 .price-block:nth-child(2) .inner-box {
-  border-top-color: #036491;
+  border-top-color: #4caf50;
 }
 
 .price-block:nth-child(2) .inner-box .buy-btn {
-  background-color: #036491;
+  background-color: #4caf50;
 }
 
 .price-block:nth-child(2) .inner-box .price {
-  color: #036491;
+  color: #4caf50;
 }
 
 .price-block:nth-child(3) .inner-box {
@@ -3304,6 +3349,19 @@ img {
 .price-block:nth-child(3) .inner-box .price {
   color: #00a1ea;
 }
+
+.price-block:nth-child(4) .inner-box {
+  border-top-color: #edb718;
+}
+
+.price-block:nth-child(4) .inner-box .buy-btn {
+  background-color: #edb718;
+}
+
+.price-block:nth-child(4) .inner-box .price {
+  color: #edb718;
+}
+
 
 .price-block.style-two .inner-box {
   border-top: none;
@@ -5446,6 +5504,15 @@ img {
   }
 }
 
+@media only screen and (max-width: 990px){
+  #dummytext{
+    display: none;
+  }
+  .ticket-cards{
+    display: none !important;
+  }
+}
+
 /*** 
 
 ====================================================================
@@ -7250,7 +7317,7 @@ img {
 
 .counter-section-two {
   position: relative;
-  padding: 100px 0px 90px;
+  padding: 100px 0px 90px 0px;
 }
 
 .counter-section-two:before {
