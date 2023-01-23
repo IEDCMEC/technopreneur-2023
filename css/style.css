@@ -1897,6 +1897,7 @@ img {
   color: #ffffff;
   font-weight: 700;
   line-height: 1.1em;
+  white-space: nowrap;
 }
 
 .banner-section .content-column .inner-column .text {
@@ -1956,6 +1957,12 @@ img {
     text-align: left;
     padding-left: 25px;
     padding-right: 25px;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .banner-section .content-column .inner-column h2 {
+    white-space: normal;
   }
 }
 
