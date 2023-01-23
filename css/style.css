@@ -3256,7 +3256,7 @@ img {
   border-radius: 8px;
   padding: 60px 15px 55px;
   background-color: #ffffff;
-  border-top: 12px solid #ce5200;
+  border-top: 12px solid #4caf50;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
 }
 
@@ -3283,7 +3283,7 @@ img {
 
 .price-block .inner-box .price {
   position: relative;
-  color: #ce5200;
+  color: #4caf50;
   font-size: 52px;
   line-height: 45px;
   font-weight: 700;
@@ -3302,7 +3302,7 @@ img {
 
 .price-block .inner-box .price .price-strikethrough {
   position: relative;
-  color: #ce5200;
+  color: #4caf50;
   font-size: 30px;
   font-weight: 700;
   margin-top: 15px;
@@ -3347,7 +3347,7 @@ img {
   color: #ffffff;
   padding: 14px 35px 14px 40px;
   text-transform: uppercase;
-  background-color: #ce5200;
+  background-color: #4caf50;
 }
 
 .price-block .inner-box .buy-btn:before {
@@ -3375,51 +3375,51 @@ img {
 }
 
 .price-block:nth-child(2) .inner-box {
-  border-top-color: #4caf50;
-}
-
-.price-block:nth-child(2) .inner-box .buy-btn {
-  background-color: #4caf50;
-}
-
-.price-block:nth-child(2) .inner-box .price {
-  color: #4caf50;
-}
-
-.price-block:nth-child(2) .inner-box .price .price-strikethrough {
-  color: #4caf50;
-}
-
-.price-block:nth-child(3) .inner-box {
   border-top-color: #00a1ea;
 }
 
-.price-block:nth-child(3) .inner-box .buy-btn {
+.price-block:nth-child(2) .inner-box .buy-btn {
   background-color: #00a1ea;
 }
 
-.price-block:nth-child(3) .inner-box .price {
+.price-block:nth-child(2) .inner-box .price {
   color: #00a1ea;
 }
 
-.price-block:nth-child(3) .inner-box .price .price-strikethrough {
+.price-block:nth-child(2) .inner-box .price .price-strikethrough {
   color: #00a1ea;
 }
 
-.price-block:nth-child(4) .inner-box {
+.price-block:nth-child(3) .inner-box {
   border-top-color: #edb718;
 }
 
-.price-block:nth-child(4) .inner-box .buy-btn {
+.price-block:nth-child(3) .inner-box .buy-btn {
   background-color: #edb718;
 }
 
-.price-block:nth-child(4) .inner-box .price {
+.price-block:nth-child(3) .inner-box .price {
   color: #edb718;
 }
 
-.price-block:nth-child(4) .inner-box .price .price-strikethrough {
+.price-block:nth-child(3) .inner-box .price .price-strikethrough {
   color: #edb718;
+}
+
+.price-block:nth-child(4) .inner-box {
+  border-top-color: #ce5200;
+}
+
+.price-block:nth-child(4) .inner-box .buy-btn {
+  background-color: #ce5200;
+}
+
+.price-block:nth-child(4) .inner-box .price {
+  color: #ce5200;
+}
+
+.price-block:nth-child(4) .inner-box .price .price-strikethrough {
+  color: #ce5200;
 }
 
 .price-block.style-two .inner-box {
