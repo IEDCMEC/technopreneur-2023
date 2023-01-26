@@ -311,7 +311,7 @@ img {
 }
 
 .btn-style-two:hover {
-  background: #041c2b;
+  background: none;
   border-color: #fafaff;
   color: #fafaff;
 }
@@ -813,7 +813,9 @@ img {
 .main-header .header-upper .outer-container {
   position: relative;
   padding: 0px 70px;
-  background-color: #041c2b;
+  /* background-color: #02090eb0;
+  backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);
+  box-shadow: 0px 0px 10px 1px #041c2bbd; */
 }
 
 .main-header .nav-outer {
@@ -914,8 +916,8 @@ img {
 }
 
 .header-style-one .main-menu {
-  padding-top: 38px;
-  /* margin-top: -10px; */
+  padding-top: 15px;
+  margin-top: 15px;
 }
 
 .main-menu .navbar-collapse {
@@ -1834,7 +1836,15 @@ img {
   position: relative;
   padding: 205px 0px 300px;
   background-size: cover;
-  background-color: #041c2b;
+  background-image:url(/images/background/business-people-casual-meeting.jpg);
+  /* light */
+  /* box-shadow: inset 0 0 0 2000px #00a0ea4b; */ 
+  /* medium */
+  box-shadow: inset 0 0 0 2000px #03507377; 
+  /* dark */
+  /* box-shadow: inset 0 0 0 2000px #041c2b8f; */ 
+  
+  /* background-color: #041c2b; */
 }
 
 .banner-section:after {
@@ -1878,7 +1888,7 @@ img {
   top: 0px;
   right: 0px;
   bottom: 0px;
-  background-color: #041c2b;
+  /* background-color: #041c2b; */
 }
 
 .banner-section .content-column {
@@ -5540,13 +5550,13 @@ img {
   border-radius: 50px;
   background-color: #00a1ea;
 }
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
   .programs-block.style-two .inner-block .content .program-info .dott {
     margin-top: 24px;
     top: 33px;
     right: 5px;
   }
-}
+} */
 
 @media only screen and (max-width: 768px) {
   #counterone-text {
@@ -5569,6 +5579,19 @@ img {
   }
   .ticket-cards{
     display: none !important;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  .programs-block .inner-block .content .program-info .dott {
+    display: none;
+  }
+
+  .programs-block.style-two .inner-block .content .program-info .dott {
+    display: none;
+  }
+  .programs-block .inner-block .content .content-inner h3 {
+    display: none;
   }
 }
 
