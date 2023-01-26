@@ -3198,7 +3198,7 @@ img {
 }
 
 .price-section .row {
-  margin: 0px -30px;
+  /* margin: 0px -30px; */
 }
 
 .price-section .price-block {
@@ -3264,7 +3264,7 @@ img {
   position: relative;
   text-align: center;
   border-radius: 8px;
-  padding: 60px 15px 55px;
+  padding: 50px 0px 30px 0;
   background-color: #ffffff;
   border-top: 12px solid #4caf50;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
@@ -3294,56 +3294,46 @@ img {
 .price-block .inner-box .price {
   position: relative;
   color: #4caf50;
-  font-size: 52px;
+  font-size: 40px;
   line-height: 45px;
   font-weight: 700;
-  margin-top: 15px;
 }
 
 .price-block .inner-box .price span {
   position: relative;
   display: block;
   color: #222222;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 25px;
   text-transform: uppercase;
-  margin: 40px 0;
+  margin: 25px 0 50px 0;
 }
 
 .price-block .inner-box .price .price-strikethrough {
   position: relative;
   color: #4caf50;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 700;
-  margin-top: 15px;
+  margin-bottom: 15px;
   text-decoration: line-through;
 }
-
-.price-block .inner-box .price-list {
-  position: relative;
-  margin-top: 30px;
-  margin-bottom: 50px;
+.price-block .inner-box .price-detail{
+  color: #212121;
 }
-
-.price-block .inner-box .price-list li {
-  position: relative;
-  color: #222222;
-  font-size: 18px;
+.price-block .inner-box .price-detail h6{
+  text-align: left;
   font-weight: 700;
-  line-height: 1.5em;
-  margin-bottom: 20px;
+  font-size: 13px;
+  margin-bottom: 8px;
 }
-
-.price-block .inner-box .price-list li span {
-  position: relative;
-  color: #666666;
-  font-size: 14px;
-  font-weight: 400;
-  display: block;
+.price-block .inner-box .price-list li{
+  list-style: disc;
+  text-align: left;
 }
 
 .price-block .inner-box .price-list li.lite {
   opacity: 0.4;
+  text-decoration: line-through;
 }
 
 .price-block .inner-box .price-list li:last-child {
@@ -3379,10 +3369,10 @@ img {
   margin-top: 15px;
 }
 
-.price-block:nth-child(1) .inner-box .price span {
-  margin-top: 40px;
+/* .price-block:nth-child(1) .inner-box .price span {
+  margin-top: 12px;
   margin-bottom: 40px;
-}
+} */
 
 .price-block:nth-child(2) .inner-box {
   border-top-color: #00a1ea;
@@ -3401,22 +3391,22 @@ img {
 }
 
 .price-block:nth-child(3) .inner-box {
-  border-top-color: #edb718;
+  border-top-color: #ce5200;
 }
 
 .price-block:nth-child(3) .inner-box .buy-btn {
-  background-color: #edb718;
+  background-color: #ce5200;
 }
 
 .price-block:nth-child(3) .inner-box .price {
-  color: #edb718;
+  color: #ce5200;
 }
 
 .price-block:nth-child(3) .inner-box .price .price-strikethrough {
-  color: #edb718;
+  color: #ce5200;
 }
 
-.price-block:nth-child(4) .inner-box {
+/* .price-block:nth-child(4) .inner-box {
   border-top-color: #ce5200;
 }
 
@@ -3430,7 +3420,7 @@ img {
 
 .price-block:nth-child(4) .inner-box .price .price-strikethrough {
   color: #ce5200;
-}
+} */
 
 .price-block.style-two .inner-box {
   border-top: none;
@@ -5570,15 +5560,6 @@ img {
     bottom: 15px;
     margin-top: 0;
     margin-bottom: 20px;
-  }
-}
-
-@media only screen and (max-width: 990px){
-  #dummytext{
-    display: none;
-  }
-  .ticket-cards{
-    display: none !important;
   }
 }
 
