@@ -426,7 +426,7 @@
 	
 	.main-header{
 		position:relative;
-		background-color:#222222;
+		background: url(/images/background/tinywow_space_background.png);
 	}
 	
 	.main-header .header-upper .outer-box{

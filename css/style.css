@@ -1973,6 +1973,30 @@ img {
   }
 }
 
+@media only screen and (max-width: 1023px) {
+  .banner-section .content-column .inner-column {
+    left: 15px;
+    top: -85px;
+  }
+  .banner-section .content-column .inner-column h2 {
+    font-size: 40px;
+  }
+  .banner-section .content-column .inner-column h3 {
+    font-size: 27px;
+  }
+  .banner-section .content-column .inner-column .text {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .banner-section .content-column .inner-column {
+    padding-left: 15px;
+  }
+}
+
+
+
 @media only screen and (max-width: 470px) {
   .banner-section .content-column .inner-column h2 {
     white-space: normal;
