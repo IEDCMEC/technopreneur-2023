@@ -1834,15 +1834,15 @@ img {
 
 .banner-section {
   position: relative;
-  padding: 205px 0px 300px;
+  padding: 100px 0px 473px;
   background-size: cover;
-  background-image:url(/images/background/business-people-casual-meeting.jpg);
+  background-image:url(/images/background/tinywow_space_background.png);
   /* light */
-  /* box-shadow: inset 0 0 0 2000px #00a0ea4b; */ 
+  /* box-shadow: inset 0 0 0 2000px #00a0ea4b;  */
   /* medium */
-  box-shadow: inset 0 0 0 2000px #03507377; 
+  /* box-shadow: inset 0 0 0 2000px #03507377;  */
   /* dark */
-  /* box-shadow: inset 0 0 0 2000px #041c2b8f; */ 
+  /* box-shadow: inset 0 0 0 2000px #041c2b8f;  */
   
   /* background-color: #041c2b; */
 }
@@ -1897,13 +1897,15 @@ img {
 
 .banner-section .content-column .inner-column {
   position: relative;
-  text-align: center;
+  left: 80px;
+  top: 30px;
+  text-align: left;
 }
 
 .banner-section .content-column .inner-column h2 {
   position: relative;
   display: block;
-  font-size: 66px;
+  font-size: 45px;
   color: #ffffff;
   font-weight: 700;
   line-height: 1.1em;
@@ -1918,6 +1920,7 @@ img {
   line-height: 1.14em;
   margin-top: 28px;
   text-transform: capitalize;
+  max-width: 450px;
 }
 
 .banner-section .content-column .inner-column .buttons-box {
