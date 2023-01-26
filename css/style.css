@@ -1836,7 +1836,8 @@ img {
   position: relative;
   padding: 100px 0px 473px;
   background-size: cover;
-  background-image:url(/images/background/tinywow_space_background.png);
+  /* background-image:url(/images/background/tinywow_space_background.png); */
+  background-image:url(/images/background/techno_stairs_bg.jpeg);
   /* light */
   /* box-shadow: inset 0 0 0 2000px #00a0ea4b;  */
   /* medium */
