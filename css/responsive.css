@@ -189,7 +189,7 @@
 	
 }
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 1023px){
 	
 	.main-menu .navigation > li > ul,
 	.main-menu .navigation > li > ul > li > ul{
@@ -422,11 +422,23 @@
 	
 }
 
-@media only screen and (max-width: 767px){
+@media only screen and (max-width:1200px) {
+	.fact-counter.style-two .column .inner .content{
+		padding-left:0px;
+	}
+	
+	.fact-counter.style-two .column .inner .count-outer{
+		position:relative;
+		left:0px;
+		top:0px;
+	}
+}
+
+@media only screen and (max-width: 1023px){
 	
 	.main-header{
-		position:relative;
-		background: url(/images/background/tinywow_space_background.png);
+		position: fixed;
+		background: url(/images/background/techno_stairs_bg.jpeg);
 	}
 	
 	.main-header .header-upper .outer-box{
@@ -820,7 +832,7 @@
 	}
 	
 	.banner-section{
-		padding-top:120px;
+		padding-top:200px;
 	}
 	
 	.main-slider .content h2,

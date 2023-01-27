@@ -34,10 +34,10 @@
 			<!--Header-Upper-->
 			<div class="header-upper">
 				<div class="outer-container">
-					<div class="clearfix d-md-flex d-lg-block">
+					<div class="clearfix">
 						<div class="pull-left logo-box d-md-inline d-lg-block">
 							<div class="logo">
-								<a href="index.html"><img src="images/mainlogo.png" alt="" title=""
+								<a href="index.html"><img src="images/mainlogo.png" alt="Technopreneur 2023" title=""
 										style="height: 55px;width: 200px;" /></a>
 							</div>
 						</div>
@@ -72,7 +72,7 @@
 											<a href="#speakers">Speakers</a>
 										</li>
 										<li class="dropdown">
-											<a href="#schedule">Schedules</a>
+											<a href="#schedule">Schedule</a>
 										</li>
 										<li class="dropdown">
 											<a href="#blog">Blog</a>
@@ -99,11 +99,11 @@
 			<!--End Header Upper-->
 
 			<!--Sticky Header-->
-			<div class="sticky-header">
+			<div class="sticky-header d-none d-xl-block">
 				<div class="sticky-margin clearfix">
 					<!--Logo-->
 					<div class="logo pull-left">
-						<a href="index.html" class="img-responsive"><img src="images/mainlogo.png" alt="" title=""
+						<a href="index.html" class="img-responsive"><img src="images/mainlogo.png" alt="Technopreneur 2023" title=""
 								style="height:55px;width: 200px;" /></a>
 					</div>
 
@@ -297,25 +297,25 @@
 				<div class="row clearfix justify-content-center">
 
 					<!--Column-->
-					<div class="column counter-column col-lg-4 col-md-6 col-sm-12 pl-5">
+					<div class="column counter-column col-lg-4 col-md-6 col-sm-12 pl-lg-5">
 						<div class="inner wow fadeInLeft" data-wow-delay="250ms" data-wow-duration="1500ms">
 							<div class="content">
 								<div class="count-outer count-box alternate">
 									<span class="count-text" data-speed="2000" data-stop="8">0</span>
 								</div>
-								<h4 class="counter-title">Workshops</h4>
+								<h4 class="counter-title" id="counterone-text">Workshops</h4>
 							</div>
 						</div>
 					</div>
 
 					<!--Column-->
-					<div class="column counter-column col-lg-4 col-md-6 col-sm-12">
+					<div class="column counter-column col-lg-4 col-md-6 col-sm-12" id="countertwo">
 						<div class="inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
 							<div class="content">
 								<div class="count-outer count-box">
 									<span class="count-text" data-speed="4000" data-stop="2000">0</span>
 								</div>
-								<h4 class="counter-title"><span id="counterone-text">Participants</span></h4>
+								<h4 class="counter-title"><span id="countertwo-text">Participants</span></h4>
 							</div>
 						</div>
 					</div>
@@ -323,13 +323,14 @@
 
 
 					<!--Column-->
-					<div class="column counter-column col-lg-4 col-md-6 col-sm-12 mt-lg-0 mt-md-5">
+					<div class="column counter-column col-lg-4 col-md-6 col-sm-12 mt-lg-0 mt-md-5" id="counterthree">
 						<div class="inner wow fadeInLeft" data-wow-delay="500ms" data-wow-duration="1500ms">
 							<div class="content">
 								<div class="count-outer count-box">
-									<span class="count-text" data-speed="2500" data-stop="10">0</span>
+									<span class="count-text" data-speed="2500" data-stop="50">0</span>
+									<span id="counterthree-plus">+</span>
 								</div>
-								<h4 class="counter-title">Successful <br> Entrepreneurs</h4>
+								<h4 class="counter-title" id="counterthree-text">Entrepreneurs</h4>
 							</div>
 						</div>
 					</div>
@@ -834,7 +835,7 @@
 		<div class="auto-container">
 			<!-- Sec Title -->
 			<div class="sec-title dark centered">
-				<h2>Grab Your Tickets</h2>
+				<h2 style="font-size: 45px;">Grab Your Tickets</h2>
 			</div>
 
 			<div class="sec-title text-center">
@@ -910,7 +911,7 @@
 				</div>		
 				
 				<div class="price-block col-lg-4 col-md-6 col-sm-12 ">
-					<div class="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+					<div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
 						<div class="price"><span class="price-strikethrough" style="margin-top: 0;">&nbsp;₹3,000&nbsp;</span>
 							₹1,499<span>Technopreneur main day</span>
 						</div>
@@ -1054,7 +1055,7 @@
 				</div>		
 				
 				<div class="price-block col-lg-4 col-md-6 col-sm-12 ">
-					<div class="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+					<div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
 						<div class="price"><span class="price-strikethrough" style="margin-top: 0;">&nbsp;₹599&nbsp;</span>
 							₹399<span>Workshop</span>
 						</div>
@@ -1814,15 +1815,9 @@
 								style="height:100px;width: 370px;" /></a>
 					</div>
 					<div class="text">
-						Technopreneur is the annual entrepreneurial summit hosted by social impact. We aim to help
-						students
-						in
-						emerging
-						from their shells, endure circumstances and evolve to the changes. To know more about social
-						impact,
-						visit
-						<a href="https://iedcmec.in/">https://iedcmec.in/</a>
-
+						Technopreneur is the annual entrepreneurial summit hosted by IEDC MEC. We aim to help
+						students in	emerging from their shells, endure circumstances and evolve to the changes. To know more about IEDC MEC,
+						visit <a href="https://iedcmec.in/">https://iedcmec.in/</a>
 					</div>
 					<ul class="social-icons">
 						<li>
@@ -1830,8 +1825,8 @@
 									class="fab fa-twitter"></span></a>
 						</li>
 						<li>
-							<a href="https://www.facebook.com/IEDCMEC" target="_blank"><span
-									class="fab fa-facebook"></span></a>
+							<a href="https://github.com/IEDCMEC" target="_blank"><span
+									class="fab fa-github"></span></a>
 						</li>
 						<li>
 							<a href="https://www.instagram.com/iedcmec" target="_blank"><span
@@ -1849,7 +1844,7 @@
 			<div class="footer-bottom">
 				<div class="auto-container">
 					<div class="copyright">
-						&copy; 2023 social impact. All rights reserved.
+						&copy; 2023 IEDC MEC. All rights reserved.
 					</div>
 				</div>
 			</div>
