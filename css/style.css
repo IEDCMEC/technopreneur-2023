@@ -3168,7 +3168,7 @@ img {
 .price-section {
   position: relative;
   overflow: hidden;
-  padding: 100px 0px 100px;
+  padding: 10px 0px 100px;
   background-position: left bottom;
   background-repeat: no-repeat;
 }
@@ -5427,7 +5427,7 @@ img {
 
 .programs-section {
   position: relative;
-  padding: 165px 0px 120px;
+  padding: 165px 0px 65px;
 }
 
 .programs-section.style-two {

@@ -437,7 +437,7 @@
 @media only screen and (max-width: 1023px){
 	
 	.main-header{
-		position:relative;
+		position: fixed;
 		background: url(/images/background/techno_stairs_bg.jpeg);
 	}
 	
@@ -832,7 +832,7 @@
 	}
 	
 	.banner-section{
-		padding-top:120px;
+		padding-top:200px;
 	}
 	
 	.main-slider .content h2,
