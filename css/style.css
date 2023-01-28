@@ -134,8 +134,31 @@ body {
   line-height: 1.7em;
   font-weight: 400;
   background: #ffffff;
+  overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
+  scrollbar-width: 10px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #041c2b;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #00a1ea;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #034f73;
 }
 
 .bordered-layout .page-wrapper {
@@ -1977,7 +2000,7 @@ img {
 @media only screen and (max-width: 1023px) {
   .banner-section .content-column .inner-column {
     left: 15px;
-    top: -85px;
+    top: -140px;
   }
   .banner-section .content-column .inner-column h2 {
     font-size: 40px;
