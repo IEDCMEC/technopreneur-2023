@@ -330,7 +330,7 @@ img {
   padding: 14px 30px 14px;
   border: 2px solid #00a1ea;
   text-transform: uppercase;
-  font-family: "Arimo", sans-serif;
+  font-family: "Sora", sans-serif;
 }
 
 .btn-style-two:hover {
@@ -1957,6 +1957,8 @@ img {
   /* float: left; */
   margin-right: 15px;
   margin-bottom: 15px;
+  transition: opacity 0.3s ease-in-out;
+
 }
 
 .banner-section .info-column {
