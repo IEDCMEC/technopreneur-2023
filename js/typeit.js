@@ -44,25 +44,6 @@ function TypeItInit() {
             }).go()
         }
     }).go();
-
-    // new TypeIt("#tagline-text", {
-    //     speed: 70,
-    //     cursor: false,
-    //     startDelay: 3000,
-    //     deleteSpeed: 60,
-    //     lifeLike: false,
-    //     breakLines: false,
-    //     nextStringDelay: [1000, 200],
-    //     loop: true,
-    //     strings: ["Navigating The Unknown", "The Celebration of Entrepreneurship", "In association with SponsorName"]
-    // }).go()
-
-    // new TypeIt("#venue-text", {
-    //     speed: 11,
-    //     startDelay: 6000,
-    //     lifeLike: false,
-    //     cursor: false
-    // }).go();
 }
 
 
