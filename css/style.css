@@ -134,8 +134,31 @@ body {
   line-height: 1.7em;
   font-weight: 400;
   background: #ffffff;
+  overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
+  scrollbar-width: 10px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #041c2b;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #00a1ea;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #034f73;
 }
 
 .bordered-layout .page-wrapper {
@@ -307,7 +330,7 @@ img {
   padding: 14px 30px 14px;
   border: 2px solid #00a1ea;
   text-transform: uppercase;
-  font-family: "Arimo", sans-serif;
+  font-family: "Sora", sans-serif;
 }
 
 .btn-style-two:hover {
@@ -615,6 +638,7 @@ img {
   right: 15px;
   width: 50px;
   height: 50px;
+  border-radius: 5px;
   color: #ffffff;
   font-size: 24px;
   text-transform: uppercase;
@@ -1834,6 +1858,7 @@ img {
 
 .banner-section {
   position: relative;
+  height: 877px;
   padding: 100px 0px 473px;
   background-size: cover;
   /* background-image:url(/images/background/tinywow_space_background.png); */
@@ -1934,6 +1959,7 @@ img {
   /* float: left; */
   margin-right: 15px;
   margin-bottom: 15px;
+  transition: all 0.3s ease-in-out;
 }
 
 .banner-section .info-column {
@@ -1977,7 +2003,7 @@ img {
 @media only screen and (max-width: 1023px) {
   .banner-section .content-column .inner-column {
     left: 15px;
-    top: -85px;
+    top: -140px;
   }
   .banner-section .content-column .inner-column h2 {
     font-size: 40px;
