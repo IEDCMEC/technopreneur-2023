@@ -1959,8 +1959,7 @@ img {
   /* float: left; */
   margin-right: 15px;
   margin-bottom: 15px;
-  transition: opacity 0.3s ease-in-out;
-
+  transition: all 0.3s ease-in-out;
 }
 
 .banner-section .info-column {

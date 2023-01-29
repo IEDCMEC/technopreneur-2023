@@ -12,14 +12,14 @@ function TypeItInit() {
                 speed: 15,
                 cursor: false,
                 startDelay: 200,
-                lifeLike: false,
+                lifeLike: true,
                 strings: "Navigating The Unknown",
                 afterComplete: function(tagline) {
                     tagline.destroy();
                     const venue = new TypeIt("#venue-text", {
                         speed: 12,
                         startDelay: 200,
-                        lifeLike: false,
+                        lifeLike: true,
                         cursor: false,
                         strings: "March 24 - 26, Zamra International Convention & Exhibition Centre, Kochi",
                         afterComplete: function(venue) {
@@ -31,7 +31,7 @@ function TypeItInit() {
                                 speed: 70,
                                 cursor: false,
                                 startDelay: 200,
-                                deleteSpeed: 60,
+                                deleteSpeed: 12,
                                 lifeLike: false,
                                 breakLines: false,
                                 nextStringDelay: [1000, 200],
