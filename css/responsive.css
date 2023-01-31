@@ -954,6 +954,16 @@
 	
 }
 
+@media only screen and (max-width: 768px) {
+	.main-header{
+		position: relative;
+	}
+
+	.banner-section {
+		margin-top: 0;
+	}
+}
+
 @media only screen and (max-width: 599px){
 	
 	.sec-title .big-title,
