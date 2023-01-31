@@ -425,6 +425,15 @@
 }
 
 @media only screen and (max-width:1200px) {
+	.main-header{
+		position: fixed;
+		background: url(/images/background/techno_stairs_bg.jpeg);
+	}
+
+	.banner-section {
+		margin-top: 30px;
+	}
+
 	.fact-counter.style-two .column .inner .content{
 		padding-left:0px;
 	}
@@ -835,6 +844,11 @@
 	
 	.banner-section{
 		padding-top:200px;
+		margin-top: 65px;
+	}
+
+	.banner-section .content-column {
+		padding-top: 30px;
 	}
 	
 	.main-slider .content h2,
