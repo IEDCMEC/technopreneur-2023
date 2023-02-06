@@ -427,7 +427,7 @@
 @media only screen and (max-width:1200px) {
 	.main-header{
 		position: fixed;
-		background: url(/images/background/techno_stairs_bg.jpeg);
+		background: url(/images/background\ webp/techno_stairs_bg.webp);
 	}
 
 	.banner-section {
@@ -449,7 +449,7 @@
 	
 	.main-header{
 		position: fixed;
-		background: url(/images/background/techno_stairs_bg.jpeg);
+		background: url(/images/background\ webp/techno_stairs_bg.webp);
 	}
 	
 	.main-header .header-upper .outer-box{
