@@ -3190,7 +3190,23 @@ img {
 ====================================================================
 
 ***/
-
+#early-bird{
+  background-color: #ffa000;
+  color: white;
+  font-size: 11px;
+  margin: 10px;
+  display: inline-block;
+  margin: -35px -10px 0 0;
+  padding-left: 10px;
+}
+#offer{
+  border-color:transparent white transparent transparent ;
+  border-style:solid;
+  border-width:10px;
+  width:0;
+  height:0;
+  float: right;
+}
 .price-section {
   position: relative;
   overflow: hidden;
@@ -3853,7 +3869,7 @@ img {
   position: relative;
   overflow: hidden;
   padding: 100px 0px 100px;
-  background-color: #041c2b;
+  background-color: #034f73;
 }
 
 .sponsors-section.style-two {
@@ -3902,7 +3918,7 @@ img {
 
 .sponsors-section .sponsors-list a {
   position: relative;
-  opacity: 0.5;
+  /* opacity: 0.5; */
   padding: 5px 20px;
   margin-bottom: 20px;
   display: inline-block;
@@ -3912,9 +3928,19 @@ img {
   -ms-transition: all 500ms ease;
   -o-transition: all 500ms ease;
 }
+.sponsors-section .sponsors-list a img{
+  width: auto;
+}
 
 .sponsors-section .sponsors-list a:hover {
   opacity: 1;
+}
+
+.sponsors-sub-title{
+  color:white;
+  font-weight: 600;
+  font-size: 40px;
+  margin: 70px 0 30px 0;
 }
 
 /*** 
