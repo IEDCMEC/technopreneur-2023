@@ -2205,6 +2205,10 @@ img {
 ====================================================================
 
 ***/
+.about-section {
+	position: relative;
+	padding: 120px 0 90px;
+}
 
 .welcome-section {
   position: relative;
