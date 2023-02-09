@@ -2205,6 +2205,10 @@ img {
 ====================================================================
 
 ***/
+.about-section {
+	position: relative;
+	padding: 120px 0 90px;
+}
 
 .welcome-section {
   position: relative;
@@ -3941,6 +3945,22 @@ img {
   font-weight: 600;
   font-size: 40px;
   margin: 70px 0 30px 0;
+}
+
+#title-sponsor-image {
+  height: 50px;
+}
+
+@media only screen and (max-width:768px) {
+  .sponsors-sub-title {
+    font-size: 25px;
+    word-wrap: break-word;
+    margin: 50px 0 30px 0;
+  }
+
+  #title-sponsor-image {
+    height: 45px;
+  }
 }
 
 /*** 
