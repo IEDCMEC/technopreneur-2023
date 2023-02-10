@@ -1792,19 +1792,14 @@
 		</div>
 	</div>
 
-	<script type ="module">
-		import { partytownSnippet } from '@builder.io/partytown/integration';
-		const snippetText = partytownSnippet();
-		const snippet = document.createElement('script');
-		snippet.innerText = snippetText;
-		document.body.appendChild(snippet)
+	<script src="/~partytown/partytown.js">
 	</script>
 
 	<script src="js/jquery.js"></script>
 	<!-- <script src="js/popper.min.js"></script> -->
-	<script src="js/bootstrap.min.js"></script>
+	<script type="text/partytown" src="js/bootstrap.min.js"></script>
 	<!-- <script src="js/parallax.min.js"></script> -->
-	<script src="js/jquery.scrollTo.js"></script>
+	<script type="text/partytown" src="js/jquery.scrollTo.js"></script>
 	<script src="js/appear.js"></script>
 	<!-- <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
 	<script src="js/jquery.fancybox.js"></script> -->

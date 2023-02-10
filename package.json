@@ -1,6 +1,6 @@
 {
   "scripts":{
-    "partytown": "partytown copylib public/~partytown"
+    "partytown": "partytown copylib ~partytown"
   },
   "dependencies": {
     "@builder.io/partytown": "^0.7.5"
