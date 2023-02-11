@@ -1991,6 +1991,10 @@ img {
   margin-left: 50px;
 }
 
+#venue-text:hover {
+  text-decoration: underline;
+}
+
 @media only screen and (max-width: 1200px) {
   .banner-section .content-column .inner-column {
     position: relative;
@@ -5668,7 +5672,7 @@ img {
   -o-transition: all 300ms ease;
 }
 
-.programs-block .inner-block .content .content-inner h3 a:hover {
+.programs-block .inner-block .content .content-inner h3:hover {
   position: relative;
   color: #00a1ea;
 }
