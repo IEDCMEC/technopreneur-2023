@@ -1761,6 +1761,7 @@ img {
   position: relative;
   text-align: center;
   padding: 25px 0px;
+  min-height: 412px;
 }
 
 .speaker-block .inner-box:before {
