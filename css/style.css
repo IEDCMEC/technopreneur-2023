@@ -1761,6 +1761,7 @@ img {
   position: relative;
   text-align: center;
   padding: 25px 0px;
+  min-height: 412px;
 }
 
 .speaker-block .inner-box:before {
@@ -2946,10 +2947,10 @@ img {
 
 #countertwo-text {
   position: relative;
-  left: 100px;
+  left: 140px;
 }
 
-#counterthree-plus {
+.counterthree-plus {
   position: relative;
   left: -22px;
   top: -10px;
@@ -2969,6 +2970,9 @@ img {
 @media only screen and (max-width:768px) {
   #counterthree {
     margin-left: 35px;
+  }
+  #counter-two {
+    left: 40px;
   }
 }
 
