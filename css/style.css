@@ -2129,6 +2129,10 @@ img {
   display: inline-block;
 }
 
+.event-block .inner-box .image-column .image img {
+  width: 200px;
+}
+
 .event-block .inner-box .image-column .image .overlay-box {
   position: absolute;
   left: 0px;
@@ -2205,7 +2209,7 @@ img {
 .event-block .inner-box .info-column .inner-column {
   position: relative;
   margin-left: -30px;
-  padding-top: 20px;
+  /* padding-top: 20px; */
 }
 
 .event-block .inner-box .info-column .name {
@@ -2271,6 +2275,12 @@ img {
 @media only screen and (max-width: 992px) {
   .event-block .inner-box .info-column h2 {
     margin-top: 45px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .event-block .inner-box .info-column h2 {
+    margin-top: 0px;
   }
 }
 
