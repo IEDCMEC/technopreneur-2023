@@ -3278,6 +3278,7 @@ img {
   text-transform: uppercase;
   font-weight: 600;
   transition: all 0.2s ease-in-out;
+  min-width: 154px;
 }
 
 .programs-block .inner-block .content .content-inner .register-btn:hover {
