@@ -58,6 +58,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -300,6 +301,43 @@ img {
 ====================================================================
 
 ***/
+@media only screen and (max-width: 1023px) {
+  .ticket-btn {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    width: 120px;
+    height: 55px;
+    padding: 0px 10px;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 50px;
+    text-align: center;
+    font-family: "Sora", sans-serif;
+    z-index: 100;
+    cursor: pointer;
+    background: #00a1ea;
+    display: none;
+    -webkit-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    transition: all 300ms ease;
+  } 
+  .scroll-to-top {
+    margin-bottom: 75px;
+  }
+}
+
+@media only screen and (min-width: 1023px) {
+  
+#mobile-fixed-buy-ticket {
+  display: none;
+}
+}
 
 .scroll-to-top {
   position: fixed;
@@ -2280,7 +2318,7 @@ img {
 
 @media only screen and (max-width: 479px) {
   .event-block .inner-box .info-column h2 {
-    margin-top: 5px;
+    margin-top: 35px;
   }
 }
 
@@ -2734,7 +2772,7 @@ img {
 
 .main-footer {
   position: relative;
-  padding: 210px 0px 55px;
+  padding: 210px 0px 150px;
   background-color: #041c2b;
 }
 
@@ -2980,12 +3018,12 @@ img {
 }
 
 #countertwo {
-  left: -10px;
+  left: 120px;
 }
 
 #countertwo-text {
   position: relative;
-  left: 140px;
+  left: 15px;
 }
 
 .counterthree-plus {
@@ -3000,18 +3038,13 @@ img {
   font-family: "Belmonte-Rough"
 }
 
-#counterthree-text {
-  position: relative;
-  left: 25px;
+#counterthree {
+  left: 30px;
 }
 
-@media only screen and (max-width:768px) {
-  #counterthree {
-    margin-left: 35px;
-  }
-  #counter-two {
-    left: 40px;
-  }
+#counterthree-text {
+  position: relative;
+  left: 110px;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -3022,12 +3055,16 @@ img {
 
   #countertwo-text {
     position: inherit;
-    left: 70px;
+    left: 25px;
+  }
+  
+  #counterthree {
+    left: 80px;
   }
 
   #counterthree-text {
     position: inherit;
-    left: 25px;
+    left: 115px;
   }
 
   .fact-counter.style-two .column .inner .counter-title {
@@ -3042,17 +3079,29 @@ img {
 @media only screen and (max-width: 1023px) {
   #counterone-text {
     position: inherit;
-    left: 0;
+    left: -60px;
+  }
+
+  #counterone {
+    left: -60px;
   }
 
   #countertwo-text {
     position: inherit;
-    left: 0;
+    left: -20px;
+  }
+
+  #countertwo {
+    left: 0px;
   }
 
   #counterthree-text {
     position: inherit;
-    left: -15px;
+    left: -25px;
+  }
+
+  #counterthree {
+    left: -10px;
   }
 
   .fact-counter.style-two .column .inner .counter-title {
@@ -3061,6 +3110,46 @@ img {
     bottom: 15px;
     margin-top: 0;
     margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width:992px) {
+  #countertwo {
+    top: 50px;
+  }
+
+  #counterone {
+    left: 0px;
+  }
+
+  #counterone-text {
+    left: 0px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  #counterthree {
+    left: 25px;
+  }
+  #counterthree-text {
+    left: 5px;
+  }
+
+  #countertwo {
+    left: 30px;
+    top: 0px;
+  }
+
+  #counterone {
+    left: 10px;
+  }
+
+  #counterone-text {
+    left: 10px;
+  }
+
+  .fact-counter .column .inner .content {
+    margin-top: 40px;
   }
 }
 
