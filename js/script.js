@@ -19,16 +19,27 @@
 			var scrollLink = $('.scroll-to-top');
 			if (windowpos >= 1) {
 				siteHeader.addClass('fixed-header');
-				scrollLink.fadeIn(300);
+				scrollLink.fadeIn(150);
 			} else {
 				siteHeader.removeClass('fixed-header');
-				scrollLink.fadeOut(300);
+				scrollLink.fadeOut(150);
 			}
 		}
 	}
 	
 	headerStyle();
 	
+	function ticketBtn() {
+		$(document).scroll(function() {
+			var y = $(this).scrollTop();
+			if (y > 1) {
+			$('.ticket-btn').fadeIn(150);
+			} else {
+			 $('.ticket-btn').fadeOut(150);
+			}
+			});
+	}
+	ticketBtn();
 	
 	//Submenu Dropdown Toggle
 	if($('.main-header li.dropdown ul').length){

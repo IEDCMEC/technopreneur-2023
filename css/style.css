@@ -300,6 +300,36 @@ img {
 ====================================================================
 
 ***/
+@media only screen and (max-width: 1023px) {
+  .ticket-btn {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    width: 120px;
+    height: 55px;
+    padding: 0px 10px;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 50px;
+    text-align: center;
+    font-family: "Sora", sans-serif;
+    z-index: 100;
+    cursor: pointer;
+    background: #00a1ea;
+    display: none;
+    -webkit-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    transition: all 300ms ease;
+  } 
+  .scroll-to-top {
+    margin-bottom: 75px;
+  }
+}
 
 .scroll-to-top {
   position: fixed;
