@@ -331,6 +331,13 @@ img {
   }
 }
 
+@media only screen and (min-width: 1023px) {
+  
+#mobile-fixed-buy-ticket {
+  display: none;
+}
+}
+
 .scroll-to-top {
   position: fixed;
   bottom: 15px;
@@ -2764,7 +2771,7 @@ img {
 
 .main-footer {
   position: relative;
-  padding: 210px 0px 55px;
+  padding: 210px 0px 150px;
   background-color: #041c2b;
 }
 
