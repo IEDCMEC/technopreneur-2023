@@ -558,3 +558,13 @@
 	});	
 
 })(window.jQuery);
+ function toggleFaq() {
+	const question = document.querySelectorAll(".question");
+	question.forEach((event) => {
+		event.addEventListener('click', () => {
+		event.parentNode.classList.toggle('active');
+		})
+		console.log("sjkvisn")
+	});
+}
+toggleFaq();
