@@ -1159,11 +1159,11 @@ img {
 .mobile-menu-visible .mobile-menu .menu-box {
   opacity: 1;
   visibility: visible;
-  -webkit-transition: all 0.7s ease 500ms;
-  -moz-transition: all 0.7s ease 500ms;
-  -ms-transition: all 0.7s ease 500ms;
-  -o-transition: all 0.7s ease 500ms;
-  transition: all 0.7s ease 500ms;
+  -webkit-transition: all 0.4s ease-in-out 150ms;
+  -moz-transition: all 0.4s ease-in-out 150ms;
+  -ms-transition: all 0.4s ease-in-out 150ms;
+  -o-transition: all 0.4s ease-in-out 150ms;
+  transition: all 0.4s ease-in-out 150ms;
   -webkit-transform: translateX(0%);
   -ms-transform: translateX(0%);
   transform: translateX(0%);

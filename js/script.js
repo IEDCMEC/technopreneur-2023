@@ -47,7 +47,7 @@
 		
 		//Dropdown Button
 		$('.main-header li.dropdown .dropdown-btn').on('click', function() {
-			$(this).prev('ul').slideToggle(500);
+			$(this).prev('ul').slideToggle(2000);
 		});
 		
 		//Disable dropdown parent link
@@ -79,7 +79,9 @@
 		$('.mobile-menu .menu-backdrop,.mobile-menu .close-btn').on('click', function() {
 			$('body').removeClass('mobile-menu-visible');
 		});
-
+		$('.dropdown').on('click',()=>{
+			$('body').removeClass('mobile-menu-visible');
+		})
 	}
 	
 	
