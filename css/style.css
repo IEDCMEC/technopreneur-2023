@@ -1370,6 +1370,10 @@ img {
   transition: all 0.3s ease-in-out;
 }
 
+.read-more-btn{
+  display: none;
+}
+
 #venue-text:hover {
   text-decoration: underline;
 }
@@ -1410,6 +1414,29 @@ img {
 @media only screen and (max-width: 470px) {
   .banner-section .content-column .inner-column h2 {
     white-space: normal;
+  }
+
+  .moreText{
+    display: none;
+  }
+
+  .text.showText .moreText{
+    display: block;
+  }
+
+  .text.showText .dots{
+    display: none;
+  }
+
+
+  .read-more-btn{
+    display: block;
+    color: #00a1ea;
+    background-color: transparent;
+  }
+
+  .read-more-btn:active{
+    color: #81bdd8;
   }
 }
 
