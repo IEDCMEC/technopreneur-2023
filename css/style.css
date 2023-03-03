@@ -2420,6 +2420,9 @@ img {
   .day2-tab .day2-speaker img{
     width: 100px;
   }
+  .pointer{
+    width: 250px;
+  }
 }
 
 
