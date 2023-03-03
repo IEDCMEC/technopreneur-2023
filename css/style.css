@@ -2343,6 +2343,8 @@ img {
 .day2-tab .day2-speaker .designation h6{
   font-size: 15px;
 }
+        
+
 
 #horizontal-line{
   height: 100%;
@@ -2372,6 +2374,37 @@ img {
   .event-block .inner-box .info-column h2 {
     margin-top: 60px;
   }
+  .pointer {
+    margin-left: -30px;
+    padding-left: 20px;
+    padding-top: 5px;
+    width:240px;
+    height: 40px;
+    position: relative;
+    background: #0097dd;
+  }
+  .pointer:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    /* border-left: 20px solid white; */
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+  }
+  .pointer:before {
+    content: "";
+    position: absolute;
+    right: -20px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 20px solid #0097dd;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+  }
 }
 
 @media only screen and (max-width: 479px) {
@@ -2388,6 +2421,7 @@ img {
     width: 100px;
   }
 }
+
 
 /*** 
 
