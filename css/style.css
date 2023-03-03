@@ -2334,6 +2334,34 @@ img {
   margin-right: auto;
 }
 
+.day2-tab .day2-speaker img{
+  width: 110px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.day2-tab .day2-speaker .designation h6{
+  font-size: 15px;
+}
+
+#horizontal-line{
+  height: 100%;
+  width: 2.5px;
+  background-color: #0097dd;
+  position: absolute;
+  margin-left: 22.5%;
+  border-radius: 5px;
+}
+#time-dot{
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  background-color: rgb(235, 233, 233);
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 83.5%;
+}
+
 @media only screen and (max-width: 1123px) {
   .workshop-title {
     font-size: 25px;
@@ -2349,6 +2377,15 @@ img {
 @media only screen and (max-width: 479px) {
   .event-block .inner-box .info-column h2 {
     margin-top: 35px;
+  }
+  .day2-tab h4{
+    font-size: 18px;
+  }
+  .day2-tab h6{
+    font-size: 16px;
+  }
+  .day2-tab .day2-speaker img{
+    width: 100px;
   }
 }
 
