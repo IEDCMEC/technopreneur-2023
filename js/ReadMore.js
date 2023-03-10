@@ -1,6 +1,5 @@
 const readmore = document.querySelectorAll('.read-more-btn');
 const expand = document.querySelectorAll('.info-column .inner-column .text');
-console.log(expand)
 readmore.forEach((element,index)=>{
     element.addEventListener("click",()=>{
         expand[index].classList.toggle('showText');
