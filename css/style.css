@@ -2152,6 +2152,7 @@ img {
   -ms-transform-origin: left;
   -moz-transform-origin: left;
   transform-origin: left;
+  
 }
 
 .event-block .inner-box .image-layer:before {
@@ -2203,6 +2204,14 @@ img {
 
 .event-block .inner-box .image-column .image img {
   width: 200px;
+}
+
+.event-block .inner-box .image-column .sold-out {
+  position: absolute;
+  top: -30px;
+  left: -40px;
+  z-index: 1;
+  margin-bottom: -25px; 
 }
 
 .event-block .inner-box .image-column .image .overlay-box {
