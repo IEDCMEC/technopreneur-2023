@@ -2595,7 +2595,7 @@ img {
   border-radius: 8px;
   padding: 50px 0px 30px 0;
   background-color: #ffffff;
-  border-top: 12px solid #4caf50;
+  border-top: 12px solid #494949;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
 }
 
@@ -2609,8 +2609,8 @@ img {
   border-radius: 50px;
   background: url(../images/icons/circle.png) repeat-x;
 
-  animation: slide 15s linear infinite;
-  -webkit-animation: slide 15s linear infinite;
+  /* animation: slide 15s linear infinite;
+  -webkit-animation: slide 15s linear infinite; */
 }
 
 .price-block .inner-box .title {
@@ -2622,7 +2622,7 @@ img {
 
 .price-block .inner-box .price {
   position: relative;
-  color: #4caf50;
+  color: #494949;
   font-size: 40px;
   line-height: 45px;
   font-weight: 700;
@@ -2640,7 +2640,7 @@ img {
 
 .price-block .inner-box .price .price-strikethrough {
   position: relative;
-  color: #4caf50;
+  color: #494949;
   font-size: 25px;
   font-weight: 700;
   margin-bottom: 15px;
@@ -2676,7 +2676,7 @@ img {
   color: #ffffff;
   padding: 14px 35px 14px 40px;
   text-transform: uppercase;
-  background-color: #4caf50;
+  background-color: #494949;
 }
 
 .price-block .inner-box .buy-btn:before {
@@ -2704,19 +2704,19 @@ img {
 } */
 
 .price-block:nth-child(2) .inner-box {
-  border-top-color: #00a1ea;
+  border-top-color: ##494949;
 }
 
 .price-block:nth-child(2) .inner-box .buy-btn {
-  background-color: #00a1ea;
+  background-color: #494949;
 }
 
 .price-block:nth-child(2) .inner-box .price {
-  color: #00a1ea;
+  color: #494949;
 }
 
 .price-block:nth-child(2) .inner-box .price .price-strikethrough {
-  color: #00a1ea;
+  color: #494949;
 }
 
 .price-block:nth-child(3) .inner-box {
