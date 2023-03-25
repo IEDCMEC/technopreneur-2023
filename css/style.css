@@ -1370,7 +1370,7 @@ img {
   transition: all 0.3s ease-in-out;
 }
 
-.read-more-btn{
+.read-more-btn,.dots{
   display: none;
 }
 
@@ -1418,6 +1418,10 @@ img {
 
   .moreText{
     display: none;
+  }
+
+  .dots{
+    display: inline;
   }
 
   .text.showText .moreText{
@@ -2148,6 +2152,7 @@ img {
   -ms-transform-origin: left;
   -moz-transform-origin: left;
   transform-origin: left;
+  
 }
 
 .event-block .inner-box .image-layer:before {
@@ -2199,6 +2204,14 @@ img {
 
 .event-block .inner-box .image-column .image img {
   width: 200px;
+}
+
+.event-block .inner-box .image-column .sold-out {
+  position: absolute;
+  top: -30px;
+  left: -40px;
+  z-index: 1;
+  margin-bottom: -25px; 
 }
 
 .event-block .inner-box .image-column .image .overlay-box {
@@ -2343,6 +2356,8 @@ img {
 .day2-tab .day2-speaker .designation h6{
   font-size: 15px;
 }
+        
+
 
 #horizontal-line{
   height: 100%;
@@ -2372,8 +2387,48 @@ img {
   .event-block .inner-box .info-column h2 {
     margin-top: 60px;
   }
+  .pointer {
+    margin-left: -30px;
+    padding-left: 20px;
+    padding-top: 5px;
+    width:245px;
+    height: 40px;
+    position: relative;
+    background: #0097dd;
+  }
+  .pointer:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+  }
+  .pointer:before {
+    content: "";
+    position: absolute;
+    right: -20px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 20px solid #0097dd;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+  }
 }
 
+@media only screen and (max-width: 370px){
+  .pointer{
+    width: 100% !important;
+  }
+}
+/* @media only screen and (max-width: 441px){
+  .pointer{
+    width: 78% !important;
+  }
+} */
 @media only screen and (max-width: 479px) {
   .event-block .inner-box .info-column h2 {
     margin-top: 35px;
@@ -2387,7 +2442,12 @@ img {
   .day2-tab .day2-speaker img{
     width: 100px;
   }
+  .pointer{
+    width: 75%;
+    font-size: 18.5px;
+  }
 }
+
 
 /*** 
 
@@ -2535,7 +2595,7 @@ img {
   border-radius: 8px;
   padding: 50px 0px 30px 0;
   background-color: #ffffff;
-  border-top: 12px solid #4caf50;
+  border-top: 12px solid #494949;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
 }
 
@@ -2549,8 +2609,8 @@ img {
   border-radius: 50px;
   background: url(../images/icons/circle.png) repeat-x;
 
-  animation: slide 15s linear infinite;
-  -webkit-animation: slide 15s linear infinite;
+  /* animation: slide 15s linear infinite;
+  -webkit-animation: slide 15s linear infinite; */
 }
 
 .price-block .inner-box .title {
@@ -2562,7 +2622,7 @@ img {
 
 .price-block .inner-box .price {
   position: relative;
-  color: #4caf50;
+  color: #494949;
   font-size: 40px;
   line-height: 45px;
   font-weight: 700;
@@ -2580,7 +2640,7 @@ img {
 
 .price-block .inner-box .price .price-strikethrough {
   position: relative;
-  color: #4caf50;
+  color: #494949;
   font-size: 25px;
   font-weight: 700;
   margin-bottom: 15px;
@@ -2616,7 +2676,7 @@ img {
   color: #ffffff;
   padding: 14px 35px 14px 40px;
   text-transform: uppercase;
-  background-color: #4caf50;
+  background-color: #494949;
 }
 
 .price-block .inner-box .buy-btn:before {
@@ -2644,19 +2704,19 @@ img {
 } */
 
 .price-block:nth-child(2) .inner-box {
-  border-top-color: #00a1ea;
+  border-top-color: #494949;
 }
 
 .price-block:nth-child(2) .inner-box .buy-btn {
-  background-color: #00a1ea;
+  background-color: #494949;
 }
 
 .price-block:nth-child(2) .inner-box .price {
-  color: #00a1ea;
+  color: #494949;
 }
 
 .price-block:nth-child(2) .inner-box .price .price-strikethrough {
-  color: #00a1ea;
+  color: #494949;
 }
 
 .price-block:nth-child(3) .inner-box {
@@ -3212,13 +3272,13 @@ img {
     top: 0px;
   }
 
-  #counterone {
+  /* #counterone {
     left: 10px;
   }
 
   #counterone-text {
     left: 10px;
-  }
+  } */
 
   .fact-counter .column .inner .content {
     margin-top: 40px;
@@ -3511,7 +3571,7 @@ img {
 
 @media only screen and (max-width: 768px) {
   .programs-block .inner-block .content .content-inner .free-label {
-    right: 25px;
+    right: 15px;
   }
 }
 

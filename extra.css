@@ -2,3 +2,7 @@
 #blog a {
   pointer-events: none;
 }
+
+.programs-block .venue{
+  font-size: 14px;
+}
